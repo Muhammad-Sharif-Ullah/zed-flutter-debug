@@ -1,0 +1,11 @@
+id = "flutter-debug"
+name = "Flutter Debugger"
+version = "0.0.1"
+schema_version = 1
+authors = ["Your Name"]
+description = "Flutter Debugger for Zed"
+repository = "https://github.com/yourname/flutter-debug"
+
+[debug_adapters.flutter]
+# We don't need a custom schema path usually, but the field is required by the API structure
+# You can leave this out or point to a dummy json if strict validation is on.
